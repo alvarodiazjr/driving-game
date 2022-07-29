@@ -11,3 +11,15 @@ window.addEventListener('keydown', function () {
     $car.className = 'f1-car';
   }
 });
+
+// clearInterval(moving);
+var left = 10;
+function moveCar() {
+  left += 10;
+  $car.style.left = left + 'px';
+  if ($car.style.left === '1500px') {
+    clearInterval(moving);
+  }
+}
+
+var moving = setInterval(moveCar, 16);

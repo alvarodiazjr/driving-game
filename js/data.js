@@ -5,8 +5,6 @@ var data = {
   south: null,
   east: null,
   west: null,
-  location: {
-    x: null,
-    y: null
-  }
+  xAxis: null,
+  yAxis: null
 };
