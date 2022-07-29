@@ -6,3 +6,15 @@
   position: absolute;
   width: 150px;
 }
+
+.rotate-south {
+  transform: rotate(90deg);
+}
+
+.rotate-north {
+  transform: rotate(-90deg);
+}
+
+.rotate-west {
+  transform: rotate(-180deg);
+}
